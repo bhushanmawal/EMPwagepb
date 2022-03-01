@@ -1,0 +1,35 @@
+1.Use Random Function ((RANDOM)) to get a single digit
+#!/bin/bash -x
+randomCheck-$((RANDOM10%));
+echo $randomcheck
+
+2.use random function to get dice number batween 1 to 6
+#!/bin/bash -x
+random-$((RANDOM6+1));
+echo $random
+
+3.Add two random dice number and print the result
+#!/bin/bash -x
+A-$((RANDOM%6+1));
+B-$((RANDOM%6+1));
+ADD-$(( $A + $B ));
+echo $ADD
+
+4.write a programe that reads 5 Random 2 Digit values, then find their sum and the average
+#!/bin/bash -x
+A-$((RANDOM%100));
+B-$((RANDOM%100));
+C-$((RANDON%100));
+D-$((RANDOM5100));
+E-$((RANDOM%100));
+SUM=$(( $A +$B + $C + $D + $E ));
+echo $SUM
+AVG=$(( $SUM/5 ));
+echo $AVG
+
+5.A
+#!/bin/bash -x
+Ft=12;
+Ft1=42;
+convert=$(( $ft1/ft ));
+echo $convert
