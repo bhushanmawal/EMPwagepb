@@ -1,0 +1,148 @@
+$ ./empwageUC5.sh
++ isPartTime=1
++ isFullTime=2
++ totalSalary=0
++ empRatePerHr=20
++ numWorkingDays=20
++ (( day=1 ))
++ (( day<=20 ))
++ empCheck=2
++ case $empCheck in
++ empHrs=8
++ salary=160
++ totalSalary=160
++ (( day++  ))
++ (( day<=20 ))
++ empCheck=0
++ case $empCheck in
++ empHrs=0
++ salary=0
++ totalSalary=160
++ (( day++  ))
++ (( day<=20 ))
++ empCheck=1
++ case $empCheck in
++ empHrs=4
++ salary=80
++ totalSalary=240
++ (( day++  ))
++ (( day<=20 ))
++ empCheck=2
++ case $empCheck in
++ empHrs=8
++ salary=160
++ totalSalary=400
++ (( day++  ))
++ (( day<=20 ))
++ empCheck=1
++ case $empCheck in
++ empHrs=4
++ salary=80
++ totalSalary=480
++ (( day++  ))
++ (( day<=20 ))
++ empCheck=2
++ case $empCheck in
++ empHrs=8
++ salary=160
++ totalSalary=640
++ (( day++  ))
++ (( day<=20 ))
++ empCheck=1
++ case $empCheck in
++ empHrs=4
++ salary=80
++ totalSalary=720
++ (( day++  ))
++ (( day<=20 ))
++ empCheck=1
++ case $empCheck in
++ empHrs=4
++ salary=80
++ totalSalary=800
++ (( day++  ))
++ (( day<=20 ))
++ empCheck=1
++ case $empCheck in
++ empHrs=4
++ salary=80
++ totalSalary=880
++ (( day++  ))
++ (( day<=20 ))
++ empCheck=2
++ case $empCheck in
++ empHrs=8
++ salary=160
++ totalSalary=1040
++ (( day++  ))
++ (( day<=20 ))
++ empCheck=1
++ case $empCheck in
++ empHrs=4
++ salary=80
++ totalSalary=1120
++ (( day++  ))
++ (( day<=20 ))
++ empCheck=0
++ case $empCheck in
++ empHrs=0
++ salary=0
++ totalSalary=1120
++ (( day++  ))
++ (( day<=20 ))
++ empCheck=1
++ case $empCheck in
++ empHrs=4
++ salary=80
++ totalSalary=1200
++ (( day++  ))
++ (( day<=20 ))
++ empCheck=2
++ case $empCheck in
++ empHrs=8
++ salary=160
++ totalSalary=1360
++ (( day++  ))
++ (( day<=20 ))
++ empCheck=2
++ case $empCheck in
++ empHrs=8
++ salary=160
++ totalSalary=1520
++ (( day++  ))
++ (( day<=20 ))
++ empCheck=0
++ case $empCheck in
++ empHrs=0
++ salary=0
++ totalSalary=1520
++ (( day++  ))
++ (( day<=20 ))
++ empCheck=0
++ case $empCheck in
++ empHrs=0
++ salary=0
++ totalSalary=1520
++ (( day++  ))
++ (( day<=20 ))
++ empCheck=2
++ case $empCheck in
++ empHrs=8
++ salary=160
++ totalSalary=1680
++ (( day++  ))
++ (( day<=20 ))
++ empCheck=1
++ case $empCheck in
++ empHrs=4
++ salary=80
++ totalSalary=1760
++ (( day++  ))
++ (( day<=20 ))
++ empCheck=2
++ case $empCheck in
++ empHrs=8
++ salary=160
++ totalSalary=1920
++ (( day++  ))
++ (( day<=20 ))

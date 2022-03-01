@@ -1,0 +1,26 @@
+$ ./empwageUC4.sh
++ isPartTime=1
++ isFullTime=2
++ empRatePerHr=20
++ empCheck=1
++ case $empCheck in
++ empHrs=4
++ salary=80
+
+$ ./empwageUC4.sh
++ isPartTime=1
++ isFullTime=2
++ empRatePerHr=20
++ empCheck=2
++ case $empCheck in
++ empHrs=8
++ salary=160
+
+$ ./empwageUC4.sh
++ isPartTime=1
++ isFullTime=2
++ empRatePerHr=20
++ empCheck=0
++ case $empCheck in
++ empHrs=0
++ salary=0

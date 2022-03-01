@@ -1,0 +1,6 @@
+$ ./empwageUC1.sh
++ ispresent=1
++ randomcheck=0
++ '[' 1 -eq 0 ']'
++ echo 'Employee is Absent'
+Employee is Absent

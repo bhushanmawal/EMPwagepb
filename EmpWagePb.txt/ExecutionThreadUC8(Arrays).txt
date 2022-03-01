@@ -1,0 +1,98 @@
+ ./empwageUC8.sh
++ IS_PART_TIME=1
++ IS_FULL_TIME=2
++ MAX_HRS_IN_MONTH=4
++ EMP_RATE_PER_HR=20
++ NUM_WORKING_DAYS=20
++ totalEmpHr=0
++ totalWorkingDays=0
++ [[ '' -lt 4 ]]
++ [[ 0 -lt 20 ]]
++ (( totalworkingDays++ ))
++ empCheck=0
+++ getWorkHrs 0
+++ local 0=0
+./empwageUC8.sh: line 15: local: `0=0': not a valid identifier
+++ case $empCheck in
+++ empHrs=0
+++ echo 0
++ empHrs=0
++ totalEmpHrs=0
+++ 0
+./empwageUC8.sh: line 44: 0: command not found
++ dailyWage[$totalWorkingDays]=
++ [[ 0 -lt 4 ]]
++ [[ 0 -lt 20 ]]
++ (( totalworkingDays++ ))
++ empCheck=1
+++ getWorkHrs 1
+++ local 1=1
+./empwageUC8.sh: line 15: local: `1=1': not a valid identifier
+++ case $empCheck in
+++ empHrs=4
+++ echo 4
++ empHrs=4
++ totalEmpHrs=4
+++ 4
+./empwageUC8.sh: line 44: 4: command not found
++ dailyWage[$totalWorkingDays]=
++ [[ 4 -lt 4 ]]
++ totalSalary=80
++ echo
+
+$ ./empwageUC8.sh
++ IS_PART_TIME=1
++ IS_FULL_TIME=2
++ MAX_HRS_IN_MONTH=4
++ EMP_RATE_PER_HR=20
++ NUM_WORKING_DAYS=20
++ totalEmpHr=0
++ totalWorkingDays=0
++ [[ '' -lt 4 ]]
++ [[ 0 -lt 20 ]]
++ (( totalworkingDays++ ))
++ empCheck=0
+++ getWorkHrs 0
+++ local 0=0
+./empwageUC8.sh: line 15: local: `0=0': not a valid identifier
+++ case $empCheck in
+++ empHrs=0
+++ echo 0
++ empHrs=0
++ totalEmpHrs=0
+++ 0
+./empwageUC8.sh: line 44: 0: command not found
++ dailyWage[$totalWorkingDays]=
++ [[ 0 -lt 4 ]]
++ [[ 0 -lt 20 ]]
++ (( totalworkingDays++ ))
++ empCheck=0
+++ getWorkHrs 0
+++ local 0=0
+./empwageUC8.sh: line 15: local: `0=0': not a valid identifier
+++ case $empCheck in
+++ empHrs=0
+++ echo 0
++ empHrs=0
++ totalEmpHrs=0
+++ 0
+./empwageUC8.sh: line 44: 0: command not found
++ dailyWage[$totalWorkingDays]=
++ [[ 0 -lt 4 ]]
++ [[ 0 -lt 20 ]]
++ (( totalworkingDays++ ))
++ empCheck=2
+++ getWorkHrs 2
+++ local 2=2
+./empwageUC8.sh: line 15: local: `2=2': not a valid identifier
+++ case $empCheck in
+++ empHrs=8
+++ echo 8
++ empHrs=8
++ totalEmpHrs=8
+++ 8
+./empwageUC8.sh: line 44: 8: command not found
++ dailyWage[$totalWorkingDays]=
++ [[ 8 -lt 4 ]]
++ totalSalary=160
++ echo

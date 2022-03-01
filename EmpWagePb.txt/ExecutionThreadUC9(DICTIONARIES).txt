@@ -1,0 +1,92 @@
+$ ./EmpwageUC9.sh
++ IS_PART_TIME=1
++ IS_FULL_TIME=2
++ MAX_HRS_IN_MONTH=4
++ EMP_RATE_PER_HR=20
++ NUM_WORKING_DAYS=20
++ totalEmpHr=0
++ totalWorkingDays=0
++ declare -A dailyWage
++ [[ '' -lt 4 ]]
++ [[ 0 -lt 20 ]]
++ (( totalworkingDays++ ))
++ empCheck=0
+++ getWorkHrs 0
+++ local 0=0
+./EmpwageUC9.sh: line 17: local: `0=0': not a valid identifier
+++ case $empCheck in
+++ empHrs=0
+++ echo 0
++ empHrs=0
++ totalEmpHrs=0
+++ getEmpWage 0
+++ local empHr=0
+++ echo 0
+
+$ ./EmpwageUC9.sh
++ IS_PART_TIME=1
++ IS_FULL_TIME=2
++ MAX_HRS_IN_MONTH=4
++ EMP_RATE_PER_HR=20
++ NUM_WORKING_DAYS=20
++ totalEmpHr=0
++ totalWorkingDays=0
++ declare -A dailyWage
++ [[ '' -lt 4 ]]
++ [[ 0 -lt 20 ]]
++ (( totalworkingDays++ ))
++ empCheck=1
+++ getWorkHrs 1
+++ local 1=1
+./EmpwageUC9.sh: line 17: local: `1=1': not a valid identifier
+++ case $empCheck in
+++ empHrs=4
+++ echo 4
++ empHrs=4
++ totalEmpHrs=4
+++ getEmpWage 4
+++ local empHr=4
+++ echo 80
++ dailyWage["Day "$totalWorkingDays]=80
++ [[ 4 -lt 4 ]]
++ totalSalary=80
++ echo 80
+80
++ echo Day 0
+Day 0
+
+
+$ ./EmpwageUC9.sh
++ IS_PART_TIME=1
++ IS_FULL_TIME=2
++ MAX_HRS_IN_MONTH=4
++ EMP_RATE_PER_HR=20
++ NUM_WORKING_DAYS=20
++ totalEmpHr=0
++ totalWorkingDays=0
++ declare -A dailyWage
++ [[ '' -lt 4 ]]
++ [[ 0 -lt 20 ]]
++ (( totalworkingDays++ ))
++ empCheck=2
+++ getWorkHrs 2
+++ local 2=2
+./EmpwageUC9.sh: line 17: local: `2=2': not a valid identifier
+++ case $empCheck in
+++ empHrs=8
+++ echo 8
++ empHrs=8
++ totalEmpHrs=8
+++ getEmpWage 8
+++ local empHr=8
+++ echo 160
++ dailyWage["Day "$totalWorkingDays]=160
++ [[ 8 -lt 4 ]]
++ totalSalary=160
++ echo 160
+160
++ echo Day 0
+Day 0
+
+
+

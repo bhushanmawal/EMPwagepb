@@ -1,0 +1,28 @@
+$ ./empwageUC3.sh
++ isPartTime=1
++ isFullTime=2
++ empRatePerHr=20
++ randomCheck=1
++ '[' 2 -eq 1 ']'
++ '[' 1 -eq 1 ']'
++ empHrs=4
++ salary=80
+
+$ ./empwageUC3.sh
++ isPartTime=1
++ isFullTime=2
++ empRatePerHr=20
++ randomCheck=2
++ '[' 2 -eq 2 ']'
++ empHrs=8
++ salary=160
+
+$ ./empwageUC3.sh
++ isPartTime=1
++ isFullTime=2
++ empRatePerHr=20
++ randomCheck=0
++ '[' 2 -eq 0 ']'
++ '[' 1 -eq 0 ']'
++ empHrs=0
++ salary=0

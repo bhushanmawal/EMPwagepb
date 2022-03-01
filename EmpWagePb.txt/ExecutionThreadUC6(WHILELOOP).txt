@@ -1,0 +1,54 @@
+$ ./empwageUC6.sh
++ IS_PART_TIME=1
++ IS_FULL_TIME=2
++ MAX_HRS_IN_MONTH=10
++ EMP_RATE_PER_HR=20
++ NUM_WORKING_DAYS=20
++ totalEmpHr=0
++ totalWorkingDays=0
++ [[ '' -lt 10 ]]
++ [[ 0 -lt 20 ]]
++ (( totalWorkingDays++ ))
++ empCheck=0
++ case $empCheck in
++ empHrs=0
++ totalEmpHrs=0
++ [[ 0 -lt 10 ]]
++ [[ 1 -lt 20 ]]
++ (( totalWorkingDays++ ))
++ empCheck=0
++ case $empCheck in
++ empHrs=0
++ totalEmpHrs=0
++ [[ 0 -lt 10 ]]
++ [[ 2 -lt 20 ]]
++ (( totalWorkingDays++ ))
++ empCheck=1
++ case $empCheck in
++ empHrs=4
++ totalEmpHrs=4
++ [[ 4 -lt 10 ]]
++ [[ 3 -lt 20 ]]
++ (( totalWorkingDays++ ))
++ empCheck=0
++ case $empCheck in
++ empHrs=0
++ totalEmpHrs=4
++ [[ 4 -lt 10 ]]
++ [[ 4 -lt 20 ]]
++ (( totalWorkingDays++ ))
++ empCheck=1
++ case $empCheck in
++ empHrs=4
++ totalEmpHrs=8
++ [[ 8 -lt 10 ]]
++ [[ 5 -lt 20 ]]
++ (( totalWorkingDays++ ))
++ empCheck=2
++ case $empCheck in
++ empHrs=8
++ totalEmpHrs=16
++ [[ 16 -lt 10 ]]
++ totalSalary=320
++ echo 320
+320

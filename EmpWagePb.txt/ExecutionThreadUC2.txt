@@ -1,0 +1,7 @@
+$ ./empwageUC2.sh
++ ispresent=1
++ randomcheck=1
++ '[' 1 -eq 1 ']'
++ empRateperHr=20
++ empHrs=8
++ salary=160
