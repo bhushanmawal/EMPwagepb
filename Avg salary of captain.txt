@@ -1,0 +1,2 @@
+$ cat data.csv | grep -i CAPTAIN | awk '{sum+=$4} END {print sum/NR}'
+156142
