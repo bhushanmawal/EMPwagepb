@@ -29,7 +29,52 @@ echo $AVG
 
 5.A
 #!/bin/bash -x
-Ft=12;
-Ft1=42;
-convert=$(( $ft1/ft ));
-echo $convert
+echo "enter a number to be converted:"
+
+read number
+
+feet=$(($number*12))
+
+inches=$(($number/12))
+
+echo "feet conversion to inches:"$feet
+
+
+echo "inches conversion to feet:"$inches
+
+b)
+#!/bin/bash -x
+#Rectangular plot of 60feet *40feet in meter
+
+echo"Enter the plot 1 feet of rectangle:"
+read One 
+
+echo "Enter the plot 2 feet of rectangle:"
+read Two
+
+plot=$(($One * $Two))
+
+plot=$(($plot1 * 12))
+
+echo "Total plot conversion in inch:"$plot
+
+C)
+#!/bin/bash -x
+#Calculate area of 25 such plots in acres
+
+echo "Enter the Width of plot in feet:"
+read width 
+
+echo "Enter the height pf plot in feet:"
+read heigh
+
+#"width *heigh of plot of 1 is:"
+plot=$((width*$heigh))
+
+#"Convert into inch of 1 plot:"
+plot1=$(($plot*12))
+
+echo"One complete plot in inch:"$plot1
+plot25=$(($plot1*25))
+echo"Total plot 25 are:"$plot25
+~
