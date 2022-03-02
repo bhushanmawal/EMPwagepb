@@ -82,21 +82,5 @@ echo"Total plot 25 are:"$plot25
 
 IF AND ELSE PRACTICE PROBLEM,
 
-4) Write a programme to simulate a coin flip and print out "HEADS" or "TAILS"
-accordingly.
 
-echo "please toss the coin"
-read toss
-echo "please read the heads score"
-read headscore
-echo "please read the tails score"
-read tailscore
-
-if((toss == 'heads' && $headscore>==11))
-then
-echo "team first is the winner"
-elif((toss == 'tails' && $tailscore>==11))
-then
-echo "team second wins"
-else
 echo"both team looses the match"
