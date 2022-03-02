@@ -1,0 +1,4 @@
+$ echo Hello adam | awk '{$2="Tom"} {print $0}'
+Hello Tom
+
+

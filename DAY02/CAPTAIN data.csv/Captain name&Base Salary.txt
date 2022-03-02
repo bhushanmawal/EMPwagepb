@@ -1,0 +1,4 @@
+$ cat data.csv | grep -i CAPTAIN | awk '{print $2" "$4}'
+GARY 155966
+ALBERT 212739
+PATRICIA 99722
