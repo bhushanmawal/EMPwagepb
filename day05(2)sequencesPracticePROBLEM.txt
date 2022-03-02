@@ -80,7 +80,4 @@ echo"Total plot 25 are:"$plot25
 ~
 
 
-IF AND ELSE PRACTICE PROBLEM,
 
-
-echo"both team looses the match"
