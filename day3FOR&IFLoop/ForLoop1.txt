@@ -1,0 +1,30 @@
+$ for file in ls *.txt
+> do
+> echo $file;
+> done
+ls
+abc.txt
+def.txt
+
+$ for file in ls *.txt
+> do
+> folderName=`echo $file |awk -F. '{print $1}'`;
+> echo $folderName;
+> done
+ls
+abc
+def
+
+$ for file in ls *.txt
+> do
+> folderName=`echo $file |awk -F. '{print $1}'`;
+> mkdir $folderName;
+> done
+
+$ for file in ls *.txt
+> do
+> folderName=`echo $file |awk -F. '{print $1}'`;
+> rm -r $folderName;
+> mkdir $folderName;
+> cp $file $folderName;
+> done
