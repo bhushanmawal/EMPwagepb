@@ -1,5 +1,0 @@
-#!/bin/bash -x
-read -p "Enter first number"x= 100;
-read -p "Entet second number"y= 200;
-z=$(($x + $y));
-echo $z
